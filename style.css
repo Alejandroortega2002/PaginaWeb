@@ -1,0 +1,1323 @@
+@font-face {
+  font-family: Bevan;
+  src: url(fonts/Titulo/Bevan-Italic.ttf);
+}
+/*Pagina principal*/
+body {
+  background: url(img/CAMPUS_VILLAVICIOSA1056x600px.original\ \(1\).jpg) no-repeat center fixed ;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  right: 0px;
+  font-family: Hellix,Helvetica,Arial,sans-serif;
+  padding: 0px;
+  margin: 0px;
+  }
+  /*MENU PRINCIPAL*/
+  nav {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 12%;
+    width: 100%;
+    padding: 20px;
+    font-family: Hellix,Helvetica,Arial,sans-serif;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  }
+  .menu{
+    margin-top: 3%;
+    margin-right: 20%;
+  }
+  #nav-1 {
+    background: #1e1e1e;
+  }
+  .columnas {
+    position: relative;
+    transition: 0.3s ease;
+    background: #1e1e1e;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    border-top:#1e1e1e;
+    border-bottom:#1e1e1e;
+    padding: 40px 0px;
+    margin:20px;
+  }
+  .columnas:hover {
+    border-top: solid 3px #ff3228;
+    border-bottom:solid 3px #ff3228;
+    padding: 6px 0px; 
+  }
+  /*Inicio de sesion*/
+  .input{
+    position: relative;
+    padding: 10px 40px;
+    top: -60%;
+    margin-left: 70%;
+    border: none;
+    background:#ff3228;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all ease 300ms;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  }
+  .input:hover{
+    background: whitesmoke;
+}
+#logo{
+   position: relative;
+   width: 250px;
+   float: left;
+   margin-left: 3%;
+}
+/*video*/
+#video{
+  position: relative;
+  width: 50%;
+  height: 50%;
+  margin-top: 20%;
+  margin-left: 27%;
+}
+/*titulos*/
+.h1-tituloprincipal{
+  position: absolute;
+  font-family: Bevan;
+  text-align: center;
+  font-size: 100px;
+  margin-top: 10%;
+  margin-left: 18%;
+  color:#ff3228;
+}
+.h1-tituloclubs{
+  position: absolute;
+  font-family: Bevan;
+  text-align: center;
+  font-size: 100px;
+  margin-top: -10%;
+  margin-left: 35%;
+  color:#ff3228;
+}
+/*Pie de Pagina con redes sociales*/
+.piepag{
+  position: absolute;
+  background-color: black;
+  bottom: 0px;
+  left: 0px;
+  top: 90%;
+  margin-top: 100px;
+  height: 85px;
+  width: 100%;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+.piepag_clubs{
+  position: absolute;
+  background-color: black;
+  bottom: 0px;
+  left: 0px;
+  top: 100%;
+  margin-top: 75%;
+  height: 85px;
+  width: 100%;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+.piepag_debesaber{
+  position: absolute;
+  background-color: black;
+  bottom: 0px;
+  left: 0px;
+  top: 100%;
+  margin-top: 100%;
+  height: 85px;
+  width: 100%;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+/**
+redes prueba
+*/
+.redes-container{
+  position: absolute;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-top:  1.2%;
+  margin-left: 38%;
+}
+.redes-container ul li{
+  display: inline-block;
+  margin: 0 5px;
+  width: 50px;
+  height: 50px;
+}
+.redes-container ul li a{
+  display: block;
+  padding: 0 10px;
+  line-height: 50px;
+  font-size: 18px;
+  transition: 0.2s;
+}
+.redes-container ul:hover a{
+  filter: blur(2px);
+}
+.redes-container ul li a:hover{
+  transform: translateY(-3px) scale(1.05);
+  filter: none;
+}
+.redes-container ul li .facebook:hover{
+  background: var(facebook);
+}
+.redes-container ul li .instagram:hover{
+  background: var(instagram);
+}
+.redes-container ul li .youtube:hover{
+  background: var(youtube);
+}
+.redes-container ul li .twitter:hover{
+  background: var(twitter);
+}
+.redes-container ul li .linkedin:hover{
+  background: var(linkedin);
+}
+/*
+Debes Saber
+*/
+.body_debessaber {
+  background: url(img/foto_fondo_debesaber.jpg) no-repeat center fixed;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  right: 0px;
+  font-family: Hellix,Helvetica,Arial,sans-serif;
+ 
+  }
+.h1-tituloprincipal_debesaber{
+  position: relative;
+  font-family: Bevan;
+  text-align: center;
+  font-size: 80px;
+  margin-top: 10%;
+  color:#ff3228;
+}
+.texto_debesaber{
+  position: absolute;
+  font-size: 18px;
+  top: 50%;
+  width: 65%;
+  height: 22%;
+  color: rgb(231, 227, 227);
+  background-color: #1e1e1e;
+  border-radius: 25px;
+  left: 23%;
+  font-family: Hellix,Helvetica,Arial,sans-serif;
+  padding: 10px  5px ;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
+  padding:5%;
+}
+.texto2_debesaber{
+  position: absolute;
+  font-size: 18px;
+  top: 120%;
+  width: 60%;
+  height: 22%;
+  color: rgb(231, 227, 227);
+  background-color:#1e1e1e;
+  border-radius: 25px;
+  left: 3%;
+  font-family: Hellix,Helvetica,Arial,sans-serif ;
+  text-align:left;
+  padding: 10px  5px 10px 5px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
+  padding:5%;
+}
+.imagen1_debesaber{
+  position: relative;
+  right: 42%;
+  bottom: 140%;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  margin-right: 29%;
+ 
+}
+.imagen2_debesaber{
+  position: relative;
+  left: 115%;
+  bottom: 150%;
+  border-radius: 150px;
+  width: 300px;
+  height: 300px;
+}
+.linea1_debesaber{
+  position: relative;
+  margin-top: -3%;
+  height: 5px;
+  background-color: #1e1e1e;
+  border-color: #1e1e1e;
+}
+.linea2_debesaber{
+  position: relative;
+  margin-top: 40%;
+  height: 5px;
+  background-color: #1e1e1e;
+  border-color: #1e1e1e;
+}
+.linea3_debesaber{
+  position: relative;
+  margin-top: 40%;
+  height: 5px;
+  background-color: #1e1e1e;
+  border-color: #1e1e1e;
+}
+.video_debesaber{
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  left: 5%;
+  margin-top: 15%;
+  background-size: cover;
+}
+.acceso_debesaber{
+  position: absolute;
+  background-color: #1e1e1e;
+  width: 40%;
+  height: 65%;
+  margin-left: 55%;
+  margin-top: 5%;
+  border-radius: 20%;
+  padding: 25px;
+}
+.t_acceso{
+color: #f3f3f3;
+font-family: Bevan;
+position: relative;
+text-align: center;
+font-size: 40px;
+}
+.flecha_debesaber{
+  position: relative;
+  margin-left: 40%;
+}
+.boton_debesaber{
+  position: relative;
+  width: 250px;
+  height: 60px;
+  margin-left: 27%;
+  margin-top: 15%;
+  background:#ff3228;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all ease 300ms;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+.boton_debesaber:hover{
+  background: whitesmoke;
+  color: #000;
+}
+
+/**
+Formularios 
+/*
+Entry
+*/
+.body_entry {
+    background: url("img/entry/in.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.hidden_entry {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+
+.main_wrapper_entry {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: rgba(0,0,0,0.3);
+}
+
+.form_wrapper_entry {
+    background-color: transparent;
+}
+
+.logo_entry {
+    width: 375px;
+    margin-bottom: 1.5rem;
+}
+
+.form_container_entry {
+    width: 375px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -90px;
+}
+
+.input_form_entry {
+    text-align: center;
+    text-align: center;
+    width: 260px;
+    height: 46.4px;
+}
+
+.submit_btn_entry {
+  margin: 5%;
+    width: 260px;
+    height: 50px;
+    border: 1px solid #ff3228;
+    background: #ff3228;
+    color: white;
+}
+
+.submit_btn_entry:hover {
+    border-color: #ff3228;
+    background-color: #fff;
+    color: #ff3228;
+}
+.regresa_btn_entry{
+  width: 168px;
+  height: 46px;
+  border: 1px solid #ff3228;
+  background: #ff3228;
+  color: white;
+  
+}
+.regresa_btn_entry:hover{
+  border-color: #ff3228;
+  background-color: #fff;
+  color: #ff3228;
+}
+
+.social_networks_entry {
+    height: 40px;
+    width: 44px;
+    margin-left: -10%;
+    margin-top: -30%;
+}
+
+.social_networks--list_entry {
+    list-style: none;
+    display: flex;
+}
+
+.social_networks_entry img  {
+    width: 40px;
+}
+
+.list_element_entry {
+    padding: -15px;
+}
+/*
+LOGIN
+*/
+.body_login {
+  background: url("img/login/bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hidden_login {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+.main_wrapper_login {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: rgba(0,0,0,0.3);
+}
+
+.form_wrapper_login {
+  background-color: transparent;
+}
+
+.logo_login {
+  width: 375px;
+  margin-bottom: 1.5rem;
+}
+
+.form_container_login {
+  width: 375px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.input_form_login {
+  text-align: center;
+  text-align: center;
+  width: 260px;
+  height: 46.4px;
+}
+
+.submit_btn_login {
+  width: 268px;
+  height: 46px;
+  border: 1px solid #ff3228;
+  background: #ff3228;
+  color: white;
+  margin-bottom: 1px;
+}
+
+.regresa_btn_login{
+  width: 168px;
+  height: 46px;
+  border: 1px solid #ff3228;
+  background: #ff3228;
+  color: white;
+  margin-top: 3%;
+}
+.regresa_btn_login:hover{
+  border-color: #ff3228;
+  background-color: #fff;
+  color: #ff3228;
+}
+
+.submit_btn_login:hover {
+  border-color: #ff3228;
+  background-color: #fff;
+  color: #ff3228;
+}
+
+.social_networks_login {
+  height: 40px;
+  width: 44px;
+  margin-left: 48px;
+}
+
+.social_networks--list_login {
+  list-style: none;
+  display: flex;
+}
+
+.social_networks_login img  {
+  width: 34px;
+}
+
+.list_element_login {
+  padding: 11px;
+  margin: 0px;
+}
+/*
+INFORMACIÓN
+*/
+.body_info {
+  background: url("img/login/Estudiantes_info.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.hidden_info {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+.main_wrapper_info {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: rgba(0,0,0,0.3);
+}
+
+.form_wrapper_info {
+  background-color: transparent;
+}
+
+.logo_info {
+  width: 375px;
+}
+
+.form_container_info {
+  width: 375px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.input_form_info {
+  text-align: center;
+  text-align: center;
+  width: 400px;
+  height: 46.4px; 
+}
+.input_formtxt_info {
+  resize: none;
+  text-align: center;
+  width: 400px;
+  height: 210px;
+}
+.submit_btn_info {
+  width: 405px;
+  height: 36px;
+  border: 1px solid #ff3228;
+  background: #ff3228;
+  color: white;
+}
+.submit_btn_info:hover{
+  border-color: #ff3228;
+  background-color: #fff;
+  color: #ff3228;
+}
+.regresa_btn_info{
+  width: 168px;
+  height: 46px;
+  border: 1px solid #ff3228;
+  background: #ff3228;
+  color: white;
+  margin-top: 5px;
+  margin-left: 30%;
+  
+}
+.regresa_btn_info:hover{
+  border-color: #ff3228;
+  background-color: #fff;
+  color: #ff3228;
+}
+
+.social_networks_info {
+  height: 40px;
+  width: 44px;
+  margin-left: 10px;
+}
+
+.social_networks--list_info {
+  list-style: none;
+  display: flex;
+}
+
+.social_networks_info img  {
+  width: 40px;
+}
+
+.list_element_info {
+  margin-top: 32%;
+}
+
+/*
+
+flipscard club
+
+*/
+.arriba{
+  display: flex;
+  margin-top: 10px;
+}
+.abajo{
+  display: flex;
+  bottom: 20px;
+}
+.card{
+  position: relative;
+  width: 250px;
+  height: 220px;
+  /*aplicar margenes con resto de cartas*/
+  margin: 30px;
+  margin-left: 4%;
+  margin-bottom: 3%;
+  position: relative;
+  transition: all ease 300ms;
+  display: inline-block;
+      
+}
+.card .face{
+  position: absolute;
+  width: 100% ;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 1.2s;
+}
+.card .front{
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0px 5px 10px #000;
+}
+.card .front img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card .front h3{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+  line-height: 45px;
+  color: #fff;
+  background: #1e1e1ec4;
+  text-align: center;
+  font-size: 15px;
+}
+.card .back{
+  transform: perspective(600px) rotateY(180deg);
+  background: #1e1e1e;
+  padding: 15px;
+  color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0px 5px 10px #000;
+  
+}
+.card .back .link{
+  border-top: 1px solid #f3f3f3;
+  height: 50px;
+  line-height: 50px;
+}
+.card .back .link a{
+  color:#f3f3f3;  
+  text-decoration: none;
+}
+.card .back .link a:hover{
+  color: #ff3228;
+}
+
+.card .back h3{
+  font-size: 15px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+.card .back p{
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+.card:hover .front{
+  transform: perspective(600px) rotateY(180deg);
+}
+.card:hover .back{
+  transform: perspective(500px) rotateY(360deg);
+}
+.centro_clubs{
+  margin-top: 20%;
+}
+/*
+
+Formularios
+/**
+*Responsive Página principal
+*
+*/
+@media (max-width: 600px) {
+  nav {
+    text-align: left;
+  }
+  .menu{
+    margin-top: 13%;
+    margin-left: 22%;
+  }
+  .columnas {
+    font-size: 8px;
+    padding: 20px 0px;
+    margin: 8px;
+  }
+  #logo{
+    width: 150px;
+    margin-left: 10%;
+ }
+ .input{
+  top:-85%;
+  margin-left: 75%;
+  font-size: 8px;
+}
+ .h1-tituloprincipal{
+  font-size: 50px;
+  margin-top: 40%;
+ margin-left: 2%;
+}
+#video{
+  width: 90%;
+  margin-top: 90%;
+  margin-left: 5%;
+}
+.piepag{
+ top: 100%;
+ position: relative;
+}
+.redes-container{
+  height: 70px;
+  margin-left: 1%;
+}
+.redes-container ul li{
+  width: 40px;
+  height: 40px;
+}
+/*Clubs*/
+.h1-tituloclubs{
+  font-size: 60px;
+  margin-top: -15%;
+  margin-left: 15%;
+}
+.piepag_clubs{
+  position: relative;
+  margin-top: 10%;
+  top: 100%;
+  width: 100%;
+}
+.centro_clubs{
+  margin-top: 48%;
+  margin-left: 10%;
+}
+/*debes saber
+*/
+.h1-tituloprincipal_debesaber{
+  margin-top: 32%;
+  font-size: 40px;
+}
+.texto_debesaber{
+  position: relative;
+  font-size: 10px;
+  margin-top: 8%;
+  width: 45%;
+  height: 170px;
+  color: rgb(231, 227, 227);
+  background-color: #1e1e1e;
+  border-radius: 25px;
+  left: 43%;
+  font-family: Hellix,Helvetica,Arial,sans-serif;
+  padding-bottom: 15%;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
+}
+.texto2_debesaber{
+ position: relative;
+ width: 40%;
+ height: 100px;
+ font-size: 10px;
+ margin-top: 10%;
+ margin-left: -2%;
+ padding-bottom: 50%;
+  
+}
+.imagen1_debesaber{
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  margin-left: -64%;
+  margin-top: 35%;
+}
+.imagen2_debesaber{
+  left: 125%;
+  bottom: 200%;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+
+}
+.linea1_debesaber{
+  margin-top: -8%;
+}
+.linea2_debesaber{
+  margin-top: 10%;
+}
+.linea3_debesaber{
+  position: relative;
+  margin-top: 10%;
+  height: 5px;
+  background-color: #1e1e1e;
+  border-color: #1e1e1e;
+}
+.acceso_debesaber{
+  position: absolute;
+  background-color: #1e1e1e;
+  width: 30%;
+  height: 40%;
+  margin-left: 55%;
+  margin-top: 5%;
+  border-radius: 15%;
+  padding: 25px;
+}
+.t_acceso{
+color: #f3f3f3;
+font-family: Bevan;
+position: relative;
+text-align: center;
+font-size: 16px;
+}
+.flecha_debesaber{
+  position: relative;
+  width: 50px;
+  margin-left: 25%;
+  margin-top: 10%;
+}
+.boton_debesaber{
+  position: relative;
+  width: 100px;
+  height: 40px;
+  margin-left: 5%;
+  margin-top: 10%;
+  background:#ff3228;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all ease 300ms;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+.video_debesaber{
+  position: absolute;
+  width: 40%;
+  height: 20%;
+  left: 6%;
+  margin-top: 25%;
+  background-size: cover;
+}
+.piepag_debesaber{
+  position: relative;
+  background-color: black;
+  bottom: 0px;
+  left: 0px;
+  top: 100%;
+  margin-top: 100%;
+  height: 85px;
+  width: 100%;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+}
+@media  (max-width: 767px) and (min-width: 600px) {
+  /*Pagina principal*/
+  nav {
+    text-align: left;
+  }
+  .menu{
+    margin-top: 3%;
+    margin-right: 2%;
+  }
+  .columnas {
+    font-size: 14px;
+    padding: 20px 0px;
+    margin: 8px;
+  }
+  #logo{
+    width: 150px;
+    margin-left: 6%;
+   
+ }
+ .input{
+  top: -100%;
+  margin-left: 85%;
+}
+ .h1-tituloprincipal{
+  font-size: 60px;
+  margin-top: 20%;
+  margin-left: 10%;
+}
+#video{
+  width: 80%;
+  margin-top: 40%;
+  margin-left: 10%;
+}
+.piepag{
+ top: 100%;
+ position: relative;
+
+}
+.redes-container{
+  height: 70px;
+  margin-left: 25%;
+  
+}
+.redes-container ul li{
+  width: 50px;
+  height: 50px;
+}
+/*Clubs*/
+.h1-tituloclubs{
+  margin-left: 22%;
+} 
+.piepag_clubs{
+  position: relative;
+  margin-top: 3%;
+  margin-left: 0%;
+  width: auto;
+ 
+} 
+.card{
+  margin-left: 5%;
+  margin-top: 10%;   
+}
+
+/*debes saber
+*/
+.texto_debesaber{
+  position: relative;
+  font-size: 12px;
+  margin-top: 8%;
+  width: 50%;
+  height: 150px;
+  color: rgb(231, 227, 227);
+  background-color: #1e1e1e;
+  border-radius: 25px;
+  left: 35%;
+  font-family: Hellix,Helvetica,Arial,sans-serif;
+  padding: 5%;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
+}
+.texto2_debesaber{
+ position: relative;
+ width: 50%;
+ height: 100px;
+ font-size: 12px;
+ margin-top: 10%;
+ margin-left: -2%;
+ padding-bottom: 20%;
+  
+}
+.imagen1_debesaber{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-left: -35%;
+  margin-top: 8%;
+}
+.imagen2_debesaber{
+  left: 125%;
+  bottom: 180%;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+
+}
+.linea1_debesaber{
+  margin-top: -10%;
+}
+.linea2_debesaber{
+  margin-top: 10%;
+}
+.linea3_debesaber{
+  position: relative;
+  margin-top: 10%;
+  height: 5px;
+  background-color: #1e1e1e;
+  border-color: #1e1e1e;
+}
+.acceso_debesaber{
+  position: absolute;
+  background-color: #1e1e1e;
+  width: 30%;
+  height: 100%;
+  margin-left: 55%;
+  margin-top: 5%;
+  border-radius: 15%;
+  padding: 25px;
+}
+.t_acceso{
+color: #f3f3f3;
+font-family: Bevan;
+position: relative;
+text-align: center;
+font-size: 20px;
+}
+.flecha_debesaber{
+  position: relative;
+  margin-left: 25%;
+  margin-top: -5%;
+}
+.boton_debesaber{
+  position: relative;
+  width: 120px;
+  height: 40px;
+  margin-left: 20%;
+  margin-top: 5%;
+  background:#ff3228;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all ease 300ms;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+.video_debesaber{
+  position: absolute;
+  width: 40%;
+  height: 65%;
+  left: 6%;
+  margin-top: 20%;
+  background-size: cover;
+}
+.piepag_debesaber{
+  position: relative;
+  background-color: black;
+  bottom: 0px;
+  left: 0px;
+  top: 100%;
+  margin-top: 80%;
+  height: 85px;
+  width: 100%;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+}
+@media  (max-width: 1000px) and (min-width: 768px) {
+  nav {
+    text-align: left;
+  }
+  .menu{
+    margin-top: 7%;
+    margin-right: 2%;
+  }
+  .columnas {
+    font-size: 18px;
+    padding: 20px 0px;
+    margin: 8px;
+  }
+  #logo{
+    width: 220px;
+    margin-left: 6%;
+    margin-top: 2%;
+   
+ }
+ .input{
+  top: -75%;
+  margin-left: 85%;
+}
+ .h1-tituloprincipal{
+  font-size: 75px;
+  margin-top: 30%;
+  margin-left: 3%;
+}
+#video{
+  height: 40%;
+  width: 92%;
+  margin-top: 50%;
+  margin-left: 4%;
+}
+.piepag{
+ top: 51%;
+ margin-top: 50%;
+ position: relative;
+
+}
+.redes-container{
+  height: 70px;
+  margin-left: 25%;
+  
+}
+.redes-container ul li{
+  width: 50px;
+  height: 50px;
+}
+ /*Clubs*/
+.h1-tituloclubs{
+  margin-top: 0%;
+  margin-left: 25%;
+} 
+.piepag_clubs{
+  position: relative;
+  top: 10%;
+  margin-top: 10%;
+}
+.card{
+  margin-top: 20%;
+  margin-left: 10%;
+}
+
+/*debes saber
+*/
+
+.h1-tituloprincipal_debesaber{
+  margin-top: 20%;
+}
+
+.texto_debesaber{
+  position: absolute;
+  font-size: 15px;
+  top: 35%;
+  width: 50%;
+  height: 22%;
+  color: rgb(231, 227, 227);
+  background-color: #1e1e1e;
+  border-radius: 25px;
+  left: 35%;
+  font-family: Hellix,Helvetica,Arial,sans-serif;
+  padding: 10px  5px ;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
+  padding:5%;
+}
+.texto2_debesaber{
+ position: absolute;
+ width: 50%;
+ height: 22%;
+ font-size: 15px;
+ margin-top: -60%;
+ margin-left: -2%;
+ padding-bottom: 10%;
+  
+}
+.imagen1_debesaber{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-left: -35%;
+  margin-top: 15%;
+}
+.imagen2_debesaber{
+  left: 125%;
+  bottom: 110%;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+
+}
+.linea1_debesaber{
+  margin-top: -5%;
+}
+.linea2_debesaber{
+  margin-top: 45%;
+}
+.linea3_debesaber{
+  position: relative;
+  margin-top: 52%;
+  height: 5px;
+  background-color: #1e1e1e;
+  border-color: #1e1e1e;
+}
+.acceso_debesaber{
+  position: absolute;
+  background-color: #1e1e1e;
+  width: 30%;
+  height: 45%;
+  margin-left: 55%;
+  margin-top: 5%;
+  border-radius: 15%;
+  padding: 25px;
+}
+.t_acceso{
+color: #f3f3f3;
+font-family: Bevan;
+position: relative;
+text-align: center;
+font-size: 30px;
+}
+.flecha_debesaber{
+  position: relative;
+  margin-left: 30%;
+  margin-top: -5%;
+}
+.boton_debesaber{
+  position: relative;
+  width: 120px;
+  height: 40px;
+  margin-left: 25%;
+  margin-top: 5%;
+  background:#ff3228;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all ease 300ms;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+.video_debesaber{
+  position: absolute;
+  width: 40%;
+  height: 20%;
+  left: 6%;
+  margin-top: 30%;
+  background-size: cover;
+}
+}
+@media  (min-width: 1000px) and (max-width: 1250px) {
+  
+ .input{
+  top: -100%;
+  margin-left: 85%;
+}
+ .h1-tituloprincipal{
+  font-size: 87px;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+#video{
+  width: 90%;
+  margin-top: 35%;
+  margin-left: 4%;
+}
+.piepag{
+ top: 100%;
+ margin-top: 30%;
+
+}
+.redes-container{
+  height: 60px;
+  margin-left: 30%;
+  
+}
+.redes-container ul li{
+  width: 50px;
+  height: 50px;
+}
+ /*Clubs*/
+.piepag_clubs{
+  position: relative;
+  top: 100%;
+  margin-top: 10%;
+}
+
+/*debes saber
+*/
+.texto_debesaber{
+  position: absolute;
+  margin-top: -6%;
+  margin-left: 10%;
+  width: 55%;
+  padding-bottom: 10%;
+}
+.texto2_debesaber{
+ position: absolute;
+ width: 55%;
+ margin-top: -10%;
+ margin-left: -2%;
+ padding-bottom: 10%;
+  
+}
+.imagen1_debesaber{
+  margin-left: -27%;
+  margin-top: -12%;
+}
+.imagen2_debesaber{
+  left: 115%;
+  bottom: 200%;
+
+}
+.linea1_debesaber{
+  margin-top: -4%;
+}
+.acceso_debesaber{
+  margin-left: 50%;
+}
+
+}
+
+
+
+
