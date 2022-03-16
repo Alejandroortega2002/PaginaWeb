@@ -11,6 +11,7 @@ body {
   font-family: Hellix,Helvetica,Arial,sans-serif;
   padding: 0px;
   margin: 0px;
+  bottom: 0px;
   }
   /*MENU PRINCIPAL*/
   nav {
@@ -189,6 +190,8 @@ Debes Saber
   background-repeat: no-repeat;
   right: 0px;
   font-family: Hellix,Helvetica,Arial,sans-serif;
+  padding: 0px;
+  margin: 0px;
  
   }
 .h1-tituloprincipal_debesaber{
@@ -217,7 +220,7 @@ Debes Saber
 .texto2_debesaber{
   position: absolute;
   font-size: 18px;
-  top: 120%;
+  margin-top: 10%;
   width: 60%;
   height: 22%;
   color: rgb(231, 227, 227);
@@ -233,7 +236,7 @@ Debes Saber
 .imagen1_debesaber{
   position: relative;
   right: 42%;
-  bottom: 140%;
+  bottom: 150%;
   width: 300px;
   height: 300px;
   border-radius: 150px;
@@ -243,7 +246,7 @@ Debes Saber
 .imagen2_debesaber{
   position: relative;
   left: 115%;
-  bottom: 150%;
+  margin-top: -25%;
   border-radius: 150px;
   width: 300px;
   height: 300px;
@@ -763,7 +766,6 @@ Formularios
 }
 .piepag{
  top: 100%;
- position: relative;
 }
 .redes-container{
   height: 70px;
@@ -939,7 +941,6 @@ font-size: 16px;
 }
 .piepag{
  top: 100%;
- position: relative;
 
 }
 .redes-container{
@@ -1114,7 +1115,6 @@ font-size: 20px;
 .piepag{
  top: 51%;
  margin-top: 50%;
- position: relative;
 
 }
 .redes-container{
@@ -1302,7 +1302,7 @@ font-size: 30px;
 }
 .imagen1_debesaber{
   margin-left: -27%;
-  margin-top: -12%;
+  margin-top: -10%;
 }
 .imagen2_debesaber{
   left: 115%;
@@ -1317,7 +1317,6 @@ font-size: 30px;
 }
 
 }
-
 
 
 
